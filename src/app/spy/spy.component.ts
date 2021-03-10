@@ -20,5 +20,5 @@ export class SpyComponent{
 reset(){
 
 }
-// hier moet ik nog code toevoegen in de functies etc. + nog een spy.directive.ts
+// hier moet ik nog code toevoegen in de functies etc. + moet ik hier nu nog koppelen naar die spy.directive ? nog uitzoeken
 }
