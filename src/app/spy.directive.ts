@@ -1,12 +1,12 @@
 import { Directive, OnInit, OnDestroy } from '@angular/core';
 
-import { LoggerService } from './logger.service';
+import { LoggerService } from './logger.service'; // da's de service die ik zonet heb aangemaakt
 
 let nextId = 1;
 
 // Spy on any element to which it is applied
 // Usage: <div appSpy>...</div>
-@Directive({
+@Directive({ // dat is nu dus de decorator hier
   selector: '[appSpy]'
 })
 
